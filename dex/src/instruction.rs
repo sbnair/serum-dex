@@ -38,7 +38,7 @@ pub mod fee_sweeper {
     use solana_program::declare_id;
     declare_id!("DeqYsmBd9BnrbgUwQjVH4sQWK71dEgE6eoZFw3Rp4ftE");
 }
-
+/// Tokens updated
 #[derive(PartialEq, Eq, Debug, Clone, Serialize, Deserialize)]
 #[cfg_attr(test, derive(Arbitrary))]
 #[cfg_attr(test, proptest(no_params))]
